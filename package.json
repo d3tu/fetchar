@@ -3,15 +3,25 @@
   "version": "0.0.1",
   "description": "An extensible axios, using a proxy object.",
   "main": "index.js",
+  "types": "index.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/d3tu/fetchar.git"
   },
-  "keywords": ["fetch", "axios", "api", "request", "proxy"],
+  "keywords": [
+    "fetch",
+    "axios",
+    "api",
+    "request",
+    "proxy"
+  ],
   "author": "d3tu",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/d3tu/fetchar/issues"
   },
-  "homepage": "https://github.com/d3tu/fetchar#readme"
+  "homepage": "https://github.com/d3tu/fetchar#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
